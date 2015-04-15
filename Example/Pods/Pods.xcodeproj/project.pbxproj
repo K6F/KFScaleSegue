@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DA2E8C179564F1D34E6B14 /* UIViewController+KFScaleSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B00C6269B7290282760B8CB /* UIViewController+KFScaleSegue.h */; };
+		1EC02B362BC2A8A1A288CBB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409FBFE88443A4C9BF9A92FB /* Foundation.framework */; };
+		1F1501D1827FAA65729D7008 /* Pods-KFScaleSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B31FA37ECFE5BC695FDFB339 /* Pods-KFScaleSegue-dummy.m */; };
+		247ACAD43468D3DBFB36F741 /* KFScaleSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 153937B9CF6601B22F8D9923 /* KFScaleSegue.h */; };
+		5CB4C7C6D363889BE1780F1B /* KFScaleSegueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF83061DC2C93FEE235865C /* KFScaleSegueDelegate.h */; };
+		62B0D82CB25E6ED85E48C694 /* UIViewController+KFScaleSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 607FC81DFF4CB5052C5F75E8 /* UIViewController+KFScaleSegue.m */; };
+		69DBC30F0ECDF0F7D185B687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409FBFE88443A4C9BF9A92FB /* Foundation.framework */; };
+		71D7BB1BB53D25CC10A2A4C5 /* UIViewController+KFScaleSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B00C6269B7290282760B8CB /* UIViewController+KFScaleSegue.h */; };
+		8DB92B5924F416ED9E0729B6 /* KFScaleSegueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF83061DC2C93FEE235865C /* KFScaleSegueDelegate.h */; };
+		9FB207D9CA93202359A0A76E /* Pods-Tests-KFScaleSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A674306941C4873233D78 /* Pods-Tests-KFScaleSegue-dummy.m */; };
+		A1EBF4E63A2968D89BAB3E86 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C714DC0C7CC14443DEB4582B /* Pods-Tests-dummy.m */; };
+		BE905648994563C94923D73F /* Pods-KFScaleSegue-KFScaleSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4521A313856B7E0DF277501 /* Pods-KFScaleSegue-KFScaleSegue-dummy.m */; };
+		C207655D5A46A2AFE5CC24DD /* UIViewController+KFScaleSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 607FC81DFF4CB5052C5F75E8 /* UIViewController+KFScaleSegue.m */; };
+		D252F689EDB274B1917BC40B /* KFScaleSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A717BABAC9C426496BD70 /* KFScaleSegue.m */; };
+		D63BCA483080EA5AECA508BA /* KFScaleSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 153937B9CF6601B22F8D9923 /* KFScaleSegue.h */; };
+		DCF46BCC3FF66CC481230518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409FBFE88443A4C9BF9A92FB /* Foundation.framework */; };
+		DEC90E9B1C9DE79841C51A8C /* KFScaleSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A717BABAC9C426496BD70 /* KFScaleSegue.m */; };
+		EFD5D6A50EFE54B4CCC91ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409FBFE88443A4C9BF9A92FB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02D418AD3FC0C61CA6ED058F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A2331DE532A26FAE6BCEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C98304D8941C071EA6934C;
+			remoteInfo = "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue";
+		};
+		0A6CF30C9251EC9F51C532CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A2331DE532A26FAE6BCEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8BFEF66C423B63A655257B;
+			remoteInfo = "Pods-Tests-KFScaleSegue-KFScaleSegue";
+		};
+		326DC9A05549E5CF3CB4C7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A2331DE532A26FAE6BCEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F91CEBD5D1B1C5770E9E714;
+			remoteInfo = "Pods-KFScaleSegue-KFScaleSegue";
+		};
+		487A7BDFE7C3F5F787C4CF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A2331DE532A26FAE6BCEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4757046D2731F5360484EFCC;
+			remoteInfo = "Pods-Tests-KFScaleSegue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD97B0B0FCC4F95973CA97F /* Pods-KFScaleSegue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFScaleSegue.release.xcconfig"; sourceTree = "<group>"; };
+		0EFB69CA0EA4CCA8F12485F5 /* libPods-Tests-KFScaleSegue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-KFScaleSegue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8FC26EEE205570A963603F /* Pods-KFScaleSegue-KFScaleSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFScaleSegue-KFScaleSegue.xcconfig"; sourceTree = "<group>"; };
+		109C80D12C3D04F9411D8AEA /* Pods-KFScaleSegue-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFScaleSegue-resources.sh"; sourceTree = "<group>"; };
+		153937B9CF6601B22F8D9923 /* KFScaleSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KFScaleSegue.h; sourceTree = "<group>"; };
+		19B7DE8917BEBA1AC9A20CF0 /* Pods-KFScaleSegue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFScaleSegue-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C06AAB10865C81F150B2AB8 /* libPods-KFScaleSegue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFScaleSegue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409FBFE88443A4C9BF9A92FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42AB41FE1A30F89EA9BB03FE /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F3E886A087308899922B49 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4906520BC92C4EE6355E5729 /* Pods-KFScaleSegue-KFScaleSegue-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFScaleSegue-KFScaleSegue-Private.xcconfig"; sourceTree = "<group>"; };
+		4E3600C97C04A9D3790D054F /* Pods-Tests-KFScaleSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-KFScaleSegue.xcconfig"; path = "../Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue.xcconfig"; sourceTree = "<group>"; };
+		4FEA428D8B53002639F001D7 /* Pods-Tests-KFScaleSegue-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-KFScaleSegue-Private.xcconfig"; path = "../Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue-Private.xcconfig"; sourceTree = "<group>"; };
+		5B00C6269B7290282760B8CB /* UIViewController+KFScaleSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KFScaleSegue.h"; sourceTree = "<group>"; };
+		5C9A717BABAC9C426496BD70 /* KFScaleSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KFScaleSegue.m; sourceTree = "<group>"; };
+		5E15322156AC6A11C0F55696 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		607FC81DFF4CB5052C5F75E8 /* UIViewController+KFScaleSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KFScaleSegue.m"; sourceTree = "<group>"; };
+		6F3697A9BFE61773AFECA3CD /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E659EE25F7F701E8A04C90C /* KFScaleSegue.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFScaleSegue.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF8129E0DB7FB57257666A7 /* Pods-KFScaleSegue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFScaleSegue-acknowledgements.plist"; sourceTree = "<group>"; };
+		94B8F8ECBC9A37EE9419390F /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		97DB2FEB5A28B8CB435D6BBA /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		A9795C6DB9FC3ACB2C263390 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B31FA37ECFE5BC695FDFB339 /* Pods-KFScaleSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFScaleSegue-dummy.m"; sourceTree = "<group>"; };
+		B4521A313856B7E0DF277501 /* Pods-KFScaleSegue-KFScaleSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFScaleSegue-KFScaleSegue-dummy.m"; sourceTree = "<group>"; };
+		C2262DD8D3B0E42AB9FE97E7 /* Pods-Tests-KFScaleSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-KFScaleSegue-prefix.pch"; path = "../Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue-prefix.pch"; sourceTree = "<group>"; };
+		C5C93535DFAA701259E37BA4 /* KFScaleSegue.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFScaleSegue.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714DC0C7CC14443DEB4582B /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		CEFBBD0832D2BFE744375EAA /* Pods-KFScaleSegue-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFScaleSegue-environment.h"; sourceTree = "<group>"; };
+		D9805A31FA459CED28291321 /* Pods-KFScaleSegue-KFScaleSegue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFScaleSegue-KFScaleSegue-prefix.pch"; sourceTree = "<group>"; };
+		DFF83061DC2C93FEE235865C /* KFScaleSegueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KFScaleSegueDelegate.h; sourceTree = "<group>"; };
+		E824138F20F5DB1A4BA6A6AE /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F06A674306941C4873233D78 /* Pods-Tests-KFScaleSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-KFScaleSegue-dummy.m"; path = "../Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue-dummy.m"; sourceTree = "<group>"; };
+		F5A8D9B3309FDE52ADE10AA0 /* Pods-KFScaleSegue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFScaleSegue.debug.xcconfig"; sourceTree = "<group>"; };
+		F7BB445D94FBE9FA53A1039B /* libPods-KFScaleSegue-KFScaleSegue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFScaleSegue-KFScaleSegue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA13F7F19E4214EA204910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC02B362BC2A8A1A288CBB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD6DBDE21C674A3044B4C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DBC30F0ECDF0F7D185B687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A610E3E7546C89B056C6776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A8C3A12B7AA0210CC3975F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF46BCC3FF66CC481230518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8204CD1FAF4DA57E2A4B54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA222008E95F87217B63502F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5D6A50EFE54B4CCC91ACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C0C63F8AB822E39261DC3D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F127FF5EBCC0AB32932082 /* Pods-KFScaleSegue */,
+				E37371E5137F9AB2D70B1FEC /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0890745CF9496C4F1EA4051F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53CAB4D3A0D2BE553579C159 /* KFScaleSegue */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0B657F88A1AA25445B6F3279 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				350EA9E79889CCDD1CB28408 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		25EDD33FCC4BB4F8AD4D8FD5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5B00C6269B7290282760B8CB /* UIViewController+KFScaleSegue.h */,
+				607FC81DFF4CB5052C5F75E8 /* UIViewController+KFScaleSegue.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		350EA9E79889CCDD1CB28408 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				25EDD33FCC4BB4F8AD4D8FD5 /* Category */,
+				920E14F1AF6D66173C8D7BB1 /* Delegate */,
+				949CB4AF358AB4C773D7D114 /* Segue */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		522545C73E8E62B98281BCCA = {
+			isa = PBXGroup;
+			children = (
+				5E15322156AC6A11C0F55696 /* Podfile */,
+				0890745CF9496C4F1EA4051F /* Development Pods */,
+				6AA7C143A8BE137909443B4A /* Frameworks */,
+				D15946B65DA2B0A3A4F5EF10 /* Products */,
+				07C0C63F8AB822E39261DC3D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		53CAB4D3A0D2BE553579C159 /* KFScaleSegue */ = {
+			isa = PBXGroup;
+			children = (
+				0B657F88A1AA25445B6F3279 /* Pod */,
+				DBA99871F04D772E35C57659 /* Support Files */,
+			);
+			name = KFScaleSegue;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6AA7C143A8BE137909443B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA54BA0DC9C42B9F710931A5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920E14F1AF6D66173C8D7BB1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DFF83061DC2C93FEE235865C /* KFScaleSegueDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		949CB4AF358AB4C773D7D114 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				153937B9CF6601B22F8D9923 /* KFScaleSegue.h */,
+				5C9A717BABAC9C426496BD70 /* KFScaleSegue.m */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		C5F127FF5EBCC0AB32932082 /* Pods-KFScaleSegue */ = {
+			isa = PBXGroup;
+			children = (
+				19B7DE8917BEBA1AC9A20CF0 /* Pods-KFScaleSegue-acknowledgements.markdown */,
+				8CF8129E0DB7FB57257666A7 /* Pods-KFScaleSegue-acknowledgements.plist */,
+				B31FA37ECFE5BC695FDFB339 /* Pods-KFScaleSegue-dummy.m */,
+				CEFBBD0832D2BFE744375EAA /* Pods-KFScaleSegue-environment.h */,
+				109C80D12C3D04F9411D8AEA /* Pods-KFScaleSegue-resources.sh */,
+				F5A8D9B3309FDE52ADE10AA0 /* Pods-KFScaleSegue.debug.xcconfig */,
+				0DD97B0B0FCC4F95973CA97F /* Pods-KFScaleSegue.release.xcconfig */,
+			);
+			name = "Pods-KFScaleSegue";
+			path = "Target Support Files/Pods-KFScaleSegue";
+			sourceTree = "<group>";
+		};
+		D15946B65DA2B0A3A4F5EF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E659EE25F7F701E8A04C90C /* KFScaleSegue.bundle */,
+				C5C93535DFAA701259E37BA4 /* KFScaleSegue.bundle */,
+				1C06AAB10865C81F150B2AB8 /* libPods-KFScaleSegue.a */,
+				F7BB445D94FBE9FA53A1039B /* libPods-KFScaleSegue-KFScaleSegue.a */,
+				42AB41FE1A30F89EA9BB03FE /* libPods-Tests.a */,
+				0EFB69CA0EA4CCA8F12485F5 /* libPods-Tests-KFScaleSegue.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA54BA0DC9C42B9F710931A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409FBFE88443A4C9BF9A92FB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBA99871F04D772E35C57659 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8FC26EEE205570A963603F /* Pods-KFScaleSegue-KFScaleSegue.xcconfig */,
+				4906520BC92C4EE6355E5729 /* Pods-KFScaleSegue-KFScaleSegue-Private.xcconfig */,
+				B4521A313856B7E0DF277501 /* Pods-KFScaleSegue-KFScaleSegue-dummy.m */,
+				D9805A31FA459CED28291321 /* Pods-KFScaleSegue-KFScaleSegue-prefix.pch */,
+				4E3600C97C04A9D3790D054F /* Pods-Tests-KFScaleSegue.xcconfig */,
+				4FEA428D8B53002639F001D7 /* Pods-Tests-KFScaleSegue-Private.xcconfig */,
+				F06A674306941C4873233D78 /* Pods-Tests-KFScaleSegue-dummy.m */,
+				C2262DD8D3B0E42AB9FE97E7 /* Pods-Tests-KFScaleSegue-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-KFScaleSegue-KFScaleSegue";
+			sourceTree = "<group>";
+		};
+		E37371E5137F9AB2D70B1FEC /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F3697A9BFE61773AFECA3CD /* Pods-Tests-acknowledgements.markdown */,
+				E824138F20F5DB1A4BA6A6AE /* Pods-Tests-acknowledgements.plist */,
+				C714DC0C7CC14443DEB4582B /* Pods-Tests-dummy.m */,
+				97DB2FEB5A28B8CB435D6BBA /* Pods-Tests-environment.h */,
+				94B8F8ECBC9A37EE9419390F /* Pods-Tests-resources.sh */,
+				A9795C6DB9FC3ACB2C263390 /* Pods-Tests.debug.xcconfig */,
+				47F3E886A087308899922B49 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07C48C5FA2F8195AE7FF6D92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247ACAD43468D3DBFB36F741 /* KFScaleSegue.h in Headers */,
+				5CB4C7C6D363889BE1780F1B /* KFScaleSegueDelegate.h in Headers */,
+				71D7BB1BB53D25CC10A2A4C5 /* UIViewController+KFScaleSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A9C97A0920C0B46CDDD3EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63BCA483080EA5AECA508BA /* KFScaleSegue.h in Headers */,
+				8DB92B5924F416ED9E0729B6 /* KFScaleSegueDelegate.h in Headers */,
+				07DA2E8C179564F1D34E6B14 /* UIViewController+KFScaleSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09C98304D8941C071EA6934C /* Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BBE8AA4703539873742263 /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue" */;
+			buildPhases = (
+				EBCD9C0EE9AD5961BBF937DE /* Sources */,
+				A8204CD1FAF4DA57E2A4B54A /* Frameworks */,
+				518D144DE57C2CF51AACB0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue";
+			productName = "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue";
+			productReference = C5C93535DFAA701259E37BA4 /* KFScaleSegue.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4757046D2731F5360484EFCC /* Pods-Tests-KFScaleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F1901612FFD34C71F397CC /* Build configuration list for PBXNativeTarget "Pods-Tests-KFScaleSegue" */;
+			buildPhases = (
+				2A41597C69029DAB58497FEC /* Sources */,
+				A2A8C3A12B7AA0210CC3975F /* Frameworks */,
+				07C48C5FA2F8195AE7FF6D92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E4E8FB4F12D026DC0FA0F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-KFScaleSegue";
+			productName = "Pods-Tests-KFScaleSegue";
+			productReference = 0EFB69CA0EA4CCA8F12485F5 /* libPods-Tests-KFScaleSegue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F91CEBD5D1B1C5770E9E714 /* Pods-KFScaleSegue-KFScaleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED6FE93C4FD8F385A20E2DE /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue-KFScaleSegue" */;
+			buildPhases = (
+				682EBE4AFB464C8C8AAEFD56 /* Sources */,
+				FA222008E95F87217B63502F /* Frameworks */,
+				A2A9C97A0920C0B46CDDD3EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91033E0046191666B37E580D /* PBXTargetDependency */,
+			);
+			name = "Pods-KFScaleSegue-KFScaleSegue";
+			productName = "Pods-KFScaleSegue-KFScaleSegue";
+			productReference = F7BB445D94FBE9FA53A1039B /* libPods-KFScaleSegue-KFScaleSegue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B092C17DB9573CDDEF7F3C20 /* Pods-KFScaleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D560B73F3EC9D9749C01855B /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue" */;
+			buildPhases = (
+				049ABCBCF70CA0168C7062D8 /* Sources */,
+				6DD6DBDE21C674A3044B4C52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A770AF445EDE43110C5563A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-KFScaleSegue";
+			productName = "Pods-KFScaleSegue";
+			productReference = 1C06AAB10865C81F150B2AB8 /* libPods-KFScaleSegue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9CFE4739CFAE188AF1FED7A /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DA06FE6A1620C821682490 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				49835C7529EC6AC963C7849F /* Sources */,
+				2BBA13F7F19E4214EA204910 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6DFF0F14178BBB8CDA5702A /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 42AB41FE1A30F89EA9BB03FE /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB8BFEF66C423B63A655257B /* Pods-Tests-KFScaleSegue-KFScaleSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAF3FE7DED08F3EDD4BB5DF /* Build configuration list for PBXNativeTarget "Pods-Tests-KFScaleSegue-KFScaleSegue" */;
+			buildPhases = (
+				A1D6E124CD7A8A0B05F56C01 /* Sources */,
+				9A610E3E7546C89B056C6776 /* Frameworks */,
+				F9B533186E53D58991EFF15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-KFScaleSegue-KFScaleSegue";
+			productName = "Pods-Tests-KFScaleSegue-KFScaleSegue";
+			productReference = 7E659EE25F7F701E8A04C90C /* KFScaleSegue.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A2331DE532A26FAE6BCEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 383603ACE96CD9D16E991D06 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522545C73E8E62B98281BCCA;
+			productRefGroup = D15946B65DA2B0A3A4F5EF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B092C17DB9573CDDEF7F3C20 /* Pods-KFScaleSegue */,
+				9F91CEBD5D1B1C5770E9E714 /* Pods-KFScaleSegue-KFScaleSegue */,
+				09C98304D8941C071EA6934C /* Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue */,
+				D9CFE4739CFAE188AF1FED7A /* Pods-Tests */,
+				4757046D2731F5360484EFCC /* Pods-Tests-KFScaleSegue */,
+				FB8BFEF66C423B63A655257B /* Pods-Tests-KFScaleSegue-KFScaleSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518D144DE57C2CF51AACB0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B533186E53D58991EFF15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049ABCBCF70CA0168C7062D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1501D1827FAA65729D7008 /* Pods-KFScaleSegue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41597C69029DAB58497FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D252F689EDB274B1917BC40B /* KFScaleSegue.m in Sources */,
+				9FB207D9CA93202359A0A76E /* Pods-Tests-KFScaleSegue-dummy.m in Sources */,
+				62B0D82CB25E6ED85E48C694 /* UIViewController+KFScaleSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49835C7529EC6AC963C7849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EBF4E63A2968D89BAB3E86 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682EBE4AFB464C8C8AAEFD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC90E9B1C9DE79841C51A8C /* KFScaleSegue.m in Sources */,
+				BE905648994563C94923D73F /* Pods-KFScaleSegue-KFScaleSegue-dummy.m in Sources */,
+				C207655D5A46A2AFE5CC24DD /* UIViewController+KFScaleSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D6E124CD7A8A0B05F56C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCD9C0EE9AD5961BBF937DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91033E0046191666B37E580D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue";
+			target = 09C98304D8941C071EA6934C /* Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue */;
+			targetProxy = 02D418AD3FC0C61CA6ED058F /* PBXContainerItemProxy */;
+		};
+		A770AF445EDE43110C5563A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KFScaleSegue-KFScaleSegue";
+			target = 9F91CEBD5D1B1C5770E9E714 /* Pods-KFScaleSegue-KFScaleSegue */;
+			targetProxy = 326DC9A05549E5CF3CB4C7B8 /* PBXContainerItemProxy */;
+		};
+		E5E4E8FB4F12D026DC0FA0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-KFScaleSegue-KFScaleSegue";
+			target = FB8BFEF66C423B63A655257B /* Pods-Tests-KFScaleSegue-KFScaleSegue */;
+			targetProxy = 0A6CF30C9251EC9F51C532CA /* PBXContainerItemProxy */;
+		};
+		E6DFF0F14178BBB8CDA5702A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-KFScaleSegue";
+			target = 4757046D2731F5360484EFCC /* Pods-Tests-KFScaleSegue */;
+			targetProxy = 487A7BDFE7C3F5F787C4CF43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F073E388C708C0181C4163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KFScaleSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		14B7B345EED0C7C52AA60554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEA428D8B53002639F001D7 /* Pods-Tests-KFScaleSegue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		395D4D36F100D032568F0DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A8D9B3309FDE52ADE10AA0 /* Pods-KFScaleSegue.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45FE2702E8FCF406DAC2576B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KFScaleSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5791E1640CF7DC3F6CA54D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4906520BC92C4EE6355E5729 /* Pods-KFScaleSegue-KFScaleSegue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KFScaleSegue-KFScaleSegue/Pods-KFScaleSegue-KFScaleSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		586FABD82B9F061A2240C0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEA428D8B53002639F001D7 /* Pods-Tests-KFScaleSegue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-KFScaleSegue/Pods-Tests-KFScaleSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6C9070E63006F210FE0D01F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D7AF2EA4476B988CD6812D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F3E886A087308899922B49 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80F43EBDE1EB7F168363F6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932DFA686DA6F00229DEBD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9795C6DB9FC3ACB2C263390 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C6E81E636BB62EF0EF9D83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KFScaleSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A6037BEE3B862B40E238C5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD97B0B0FCC4F95973CA97F /* Pods-KFScaleSegue.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D6AB9849756C5867D4F919E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4906520BC92C4EE6355E5729 /* Pods-KFScaleSegue-KFScaleSegue-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KFScaleSegue-KFScaleSegue/Pods-KFScaleSegue-KFScaleSegue-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC3897FA3FB47F15C8817087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = KFScaleSegue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383603ACE96CD9D16E991D06 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9070E63006F210FE0D01F6 /* Debug */,
+				80F43EBDE1EB7F168363F6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED6FE93C4FD8F385A20E2DE /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue-KFScaleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AB9849756C5867D4F919E7 /* Debug */,
+				5791E1640CF7DC3F6CA54D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F1901612FFD34C71F397CC /* Build configuration list for PBXNativeTarget "Pods-Tests-KFScaleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B7B345EED0C7C52AA60554 /* Debug */,
+				586FABD82B9F061A2240C0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DA06FE6A1620C821682490 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932DFA686DA6F00229DEBD57 /* Debug */,
+				6D7AF2EA4476B988CD6812D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D560B73F3EC9D9749C01855B /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395D4D36F100D032568F0DCE /* Debug */,
+				A6037BEE3B862B40E238C5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BBE8AA4703539873742263 /* Build configuration list for PBXNativeTarget "Pods-KFScaleSegue-KFScaleSegue-KFScaleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FE2702E8FCF406DAC2576B /* Debug */,
+				FC3897FA3FB47F15C8817087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAF3FE7DED08F3EDD4BB5DF /* Build configuration list for PBXNativeTarget "Pods-Tests-KFScaleSegue-KFScaleSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6E81E636BB62EF0EF9D83D /* Debug */,
+				12F073E388C708C0181C4163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73A2331DE532A26FAE6BCEA3 /* Project object */;
+}

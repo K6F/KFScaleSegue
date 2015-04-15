@@ -1,30 +1,113 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="KFViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pvl-6C-Ivs">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Pdw-Gk-H4m"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37P-kQ-YEL">
+                                <rect key="frame" x="480" y="0.0" width="120" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Gce-O2-NxK"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fl2-sL-eOA">
+                                <rect key="frame" x="182" y="65" width="236" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Click To Show From Left">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lS4-Dc-gs8" kind="custom" customClass="KFScaleSegue" id="Rx1-Kv-Y8D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tp-AM-qba">
+                                <rect key="frame" x="175" y="120" width="250" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Click To Show From Right">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fU6-rg-Fgb" kind="custom" customClass="KFScaleSegue" id="t4E-Vl-Nwq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.65490196079999996" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pvl-6C-Ivs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="6f0-Sh-opI"/>
+                            <constraint firstItem="7tp-AM-qba" firstAttribute="top" secondItem="Fl2-sL-eOA" secondAttribute="bottom" constant="16" id="8hl-ta-4gB"/>
+                            <constraint firstAttribute="centerX" secondItem="7tp-AM-qba" secondAttribute="centerX" id="DcB-2t-xVM"/>
+                            <constraint firstItem="37P-kQ-YEL" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Kyv-tN-hSy"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="37P-kQ-YEL" secondAttribute="bottom" id="Qnc-Bf-2Ur"/>
+                            <constraint firstItem="Fl2-sL-eOA" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="45" id="Z2u-IR-HbE"/>
+                            <constraint firstAttribute="trailing" secondItem="37P-kQ-YEL" secondAttribute="trailing" id="quX-5i-aZ4"/>
+                            <constraint firstItem="Pvl-6C-Ivs" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="tZY-fK-iog"/>
+                            <constraint firstAttribute="centerX" secondItem="Fl2-sL-eOA" secondAttribute="centerX" id="uGu-1V-b2v"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Pvl-6C-Ivs" secondAttribute="bottom" id="uL9-cd-YFc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="481" y="458"/>
+        </scene>
+        <!--Left View Controller-->
+        <scene sceneID="HyL-hx-Je7">
+            <objects>
+                <viewController id="lS4-Dc-gs8" customClass="LeftViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TVa-Ur-4Y7"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Fd-8x-Ooe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uE2-Cn-Ls2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xkZ-wy-5wr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197" y="137"/>
+        </scene>
+        <!--Right View Controller-->
+        <scene sceneID="4aI-ux-uVH">
+            <objects>
+                <viewController id="fU6-rg-Fgb" customClass="RightViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="du1-6R-80J"/>
+                        <viewControllerLayoutGuide type="bottom" id="OHs-93-v0r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z6a-ba-Ti2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.94117647059999998" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="saN-RX-FVi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197" y="806"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

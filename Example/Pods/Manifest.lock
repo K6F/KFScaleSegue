@@ -1,0 +1,14 @@
+PODS:
+  - KFScaleSegue (0.1.0)
+
+DEPENDENCIES:
+  - KFScaleSegue (from `../`)
+
+EXTERNAL SOURCES:
+  KFScaleSegue:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KFScaleSegue: f20b59828b9e9db3f1c335aa7aaddb65d0ac1568
+
+COCOAPODS: 0.36.0

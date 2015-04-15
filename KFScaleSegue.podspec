@@ -10,27 +10,24 @@
 Pod::Spec.new do |s|
   s.name             = "KFScaleSegue"
   s.version          = "0.1.0"
-  s.summary          = "A short description of KFScaleSegue."
+  s.summary          = "Use segue to slide out menu viewcontroller in storyboard."
   s.description      = <<-DESC
-                       An optional longer description of KFScaleSegue
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/KFScaleSegue"
+                       Segue used in storyboard, scale old controller's view and show it's snapshot in new view;
+					   DESC
+  s.homepage         = "https://github.com/K6F/KFScaleSegue"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Khiyuan" => "Fan.Khiyuan@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/KFScaleSegue.git", :tag => s.version.to_s }
+  s.author           = { "K6F" => "Fan.Khiyuan@gmail.com" }
+  s.source           = { :git => "https://github.com/K6F/KFScaleSegue.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'KFScaleSegue' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'KFScaleSegue' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
