@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'KFScaleSegue', :exclusive => true do
+  pod "KFScaleSegue", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "KFScaleSegue", :path => "../"
+
+  
+end
