@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "KFScaleSegue"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "Use segue to slide out menu viewcontroller in storyboard."
   s.description      = <<-DESC
                        Segue used in storyboard, scale old controller's view and show it's snapshot in new view;
