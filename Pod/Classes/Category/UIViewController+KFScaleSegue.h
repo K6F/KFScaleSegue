@@ -24,7 +24,7 @@
 #import <UIKit/UIKit.h>
 #import "KFScaleSegueDelegate.h"
 
-@interface UIViewController (TLScaleSegue)
+@interface UIViewController (KFScaleSegue)
 @property (nonatomic,strong) UIViewController * sourceViewController;
 @property (nonatomic, strong) UIImageView * sourceViewControllerImageView;
 /**

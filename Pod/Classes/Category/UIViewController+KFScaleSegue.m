@@ -30,6 +30,9 @@ static const void *sourceVCKey = &sourceVCKey;
 
 @implementation UIViewController (KFScaleSegue)
 #pragma mark - property
+- (UIViewController *)sourceViewController{
+    return objc_getAssociatedObject(self, sourceVCKey);
+}
 -(void)setSourceViewController:(UIViewController *)sourceViewController{
     objc_setAssociatedObject(self, sourceVCKey, sourceViewController, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
@@ -41,7 +44,7 @@ static const void *sourceVCKey = &sourceVCKey;
     [self p_BindGestureToImageView:svcImageView];
 }
 #pragma mark - background
--(void)addWindowBackground:(UIImage *)image{
+-(void)kf_addWindowBackground:(UIImage *)image{
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     // 修改全局背景色
     UIColor *bgColor = [UIColor colorWithPatternImage: image];
